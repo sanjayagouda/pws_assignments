@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            color: #ff00bf;
+        }
+        .home {
+            background-color: aliceblue;
+            color: darkgoldenrod;
+        }
+        .about {
+            background-color: antiquewhite;
+            color: aqua;
+            font-size: 18px;
+        }
+        .gallery {
+            background-color: azure;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: blueviolet; text-align: center;"><h1>This my Web Page</h1></div>
+
+    <div class="home">
+        <h2 class="home__title">Paragraph 1</h2>
+        <p class="home__font--italic"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus expedita architecto unde voluptatum rem eos similique quia explicabo? Possimus natus, ex quas quidem quibusdam ab eum impedit vero saepe harum.</i></p>
+    </div>
+    <div class="about">
+        <h2 class="about__title">Paragraph 2</h2>
+        <p class="about__font--u"><u>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus expedita architecto unde voluptatum rem eos similique quia explicabo? Possimus natus, ex quas quidem quibusdam ab eum impedit vero saepe harum.</u></p>
+    </div>
+    <div class="gallery">
+        <h2 class="gallery__title">Paragraph 3</h2>
+        <p>
+            <img class="gallery__img--sample" src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600" width="900px" height="300px" alt="Free Image from Pexels">
+        </p>
+        <!-- I have used the BEM naming convention here with Block (home, about, gallery), Element (using __title) and MOdifier (using --italic/u)-->
+    </div>
+    
+</body>
+</html>
