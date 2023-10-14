@@ -1,0 +1,11 @@
+div {
+    background-color: yellow;
+}
+p {
+    color: rgb(206, 17, 17);
+}
+h2, .para {
+    color: green;
+}
+
+/* This is the external CSS */
